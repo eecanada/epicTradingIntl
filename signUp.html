@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign Up Form</title>
+  
+</head>
+<body>
+    <img src="assets/favicon/ms-icon-150x150.png">
+<h1> Please Enter Your Personal Information Below</h1>
+<b>
+      <font color="red" face="Verdana, Arial, Helvetica, sans-serif">* Required fields must be completed</font><b>
+      
+      <div class="col_one_third">
+          <label for="EnrollerID"><a href="javascript:launch('sponsor.htm')">Enroller ID:</a><font color="#FF0000" size="3px">*</font></label>
+<input type="number" pattern="\d*" name="EnrollerID" id="EnrollerID" maxlength="7" value="10000" size="10" class="form-control valid" onchange="getSponsor(this.value)" aria-invalid="false"><span id="SponsorName"><font color="red"><b>Affiliate Not Found</b></font></span>
+
+        </div>
+
+
+    <form class="form">
+      <fieldset>
+        <legend> Personal Information </legend>
+        <p> Full Legal Name that shows on Social Security Card or EIN Form </p>
+        <ul class="form--horizontal">
+          <li>
+            <label for="firstname">First name 
+            <span class="required">*</span>
+            </label>
+            <section class="form__controls">
+              <input type="text" id="firstname" class="form__element" />
+              <span class="help">Here is some help text</span>
+            </section>
+          </li>
+          <li>
+              <label for="firstname">First name 
+              <span class="required">*</span>
+              </label>
+              <section class="form__controls">
+                <input type="text" id="firstname" class="form__element" />
+                <span class="help">Here is some help text</span>
+              </section>
+            </li>
+            <li>
+                <label for="firstname"> Last Name
+                <span class="required">*</span>
+                </label>
+                <section class="form__controls">
+                  <input type="text" id="firstname" class="form__element" />
+                  <span class="help">Here is some help text</span>
+                </section>
+              </li>
+              <li>
+                  <label for="firstname"> Company Name
+                  <span class="required">*</span>
+                  </label>
+                  <section class="form__controls">
+                    <input type="text" id="firstname" class="form__element" />
+                    <span class="help">Here is some help text</span>
+                  </section>
+                </li>
+          <!-- <li>
+            <label for="firstname">disabled</label>
+             <section class="form__controls">
+              <input type="text" id="firstname" class="form__element" disabled/>
+            </section>
+          </li> -->
+           <!-- <li>
+            <label for="message" >Message</label>
+             <section class="form__controls">
+              <textarea name="" id="message" cols="30" rows="3" class="form__element"></textarea>
+              <span class="error">This is an error text</span>
+            </section>
+          </li> -->
+          <li>
+            <label for="">select</label>
+             <section class="form__controls">
+              <select class="form__element">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            </section>
+            
+          </li>
+          <li>
+          <label for="">checkboxes</label>
+          <section class="form__controls">
+            <section class="checkbox">
+              <label for="">
+                <input type="checkbox" /> male
+              </label>
+            </section>
+            <section class="checkbox">
+              <label for="">
+                <input type="checkbox" /> male
+              </label>
+            </section>
+            <section class="checkbox">
+              <label for="">
+                <input type="checkbox" /> male
+              </label>
+            </section>
+          </section>
+            </li>
+          <li>
+          <label for="" >checkboxes inline</label>
+           <section class="form__controls">
+            <section class="checkbox-inline">
+              <label for="">
+                <input type="checkbox" /> male
+              </label>
+            </section>
+            <section class="checkbox-inline">
+              <label for="">
+                <input type="checkbox" /> male
+              </label>
+            </section>
+            <section class="checkbox-inline">
+              <label for="">
+                <input type="checkbox" /> male
+              </label>
+            </section>
+          </section>
+            </li>
+           <li>
+          <label for="" >radio</label>
+          <section class="form__controls">
+            <section class="radio">
+              <label for="">
+                <input type="radio" name="radios"/> option 1
+              </label>
+            </section>
+            <section class="radio">
+              <label for="">
+                <input type="radio" name="radios"/> option 2
+              </label>
+            </section>
+            <section class="radio">
+              <label for="">
+                <input type="radio" name="radios"/> none
+              </label>
+            </section>
+          </section>
+            </li>
+           <li>
+          <label for="" >radio inline</label>
+          <section class="form__controls">
+            <section class="radio-inline">
+              <label for="">
+                <input type="radio" name="radios"/> option 1
+              </label>
+            </section>
+            <section class="radio-inline">
+              <label for="">
+                <input type="radio" name="radios"/> option 2
+              </label>
+            </section>
+            <section class="radio-inline">
+              <label for="">
+                <input type="radio" name="radios"/> none
+              </label>
+            </section>
+          </section>
+            </li>
+          <li>
+            <section class="form__controls action">
+              <input type="submit" value="submit" class="btn btn-main" />
+              <button class="btn btn-default">Cancel</button>
+            </section>
+          </li>
+        </ul>
+        
+      </fieldset>
+    </form>  
+  
+</body>
+</html>
+
+
+
