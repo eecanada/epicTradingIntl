@@ -1,7 +1,7 @@
 # Epic Trading International
 
 
-<img width="1440" alt="Screen Shot 2020-04-01 at 10 37 33 AM" src="">
+<img width="1440" alt="Screen Shot 2020-04-01 at 10 37 33 AM" src="https://user-images.githubusercontent.com/53157290/133158793-8b40221f-d1be-46a4-b265-478e41e77031.png">
 
 
 # Description 
@@ -20,10 +20,3 @@
 
 [Click to visit page](https://www.epictradingintl.com/)
 
-<!-- * The user navigates to the page and is able to see views what locations and dates will the CEO travel too
-* Users can click on the Navbar to get more information about the road show and even download a flyuer with more information 
-* The footer has all social media information regarding this event and an easy click to email button for any questions they might have. -->
-
-<!-- # Next Steps
-* Include external E-Commerce shop
-* Add live tracking with Google API -->
